@@ -11,6 +11,6 @@
 ### References
   The p5.js reference page was invaluable in trying to figure out my monster's general shapes. I also used a reference chart found in Google as a quick map for colors.
 
-#### https://lukedevour.github.io/MART191/
+#### https://lukedevour.github.io/MART191/HW3
 
   [These links will take you to my monster, affectionately named Doug.](https://lukedevour.github.io/MART191/HW3)
