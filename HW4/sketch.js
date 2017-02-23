@@ -8,13 +8,27 @@ function setup() {
 function draw() {
 // background
 background(0);
-// ellipse
+
+
+
+// target
 ellipse(ellipseX, 200, 80, 80);
+ellipse(ellipseX, 200, 70, 70);
+ellipse(ellipseX, 200, 60, 60);
+ellipse(ellipseX, 200, 50, 50);
+ellipse(ellipseX, 200, 40, 40);
+ellipse(ellipseX, 200, 30, 30);
+
+
 // lateral movement of big ellipse
 ellipseX = ellipseX + 1;
-// movement of small ellipses with mouse
-var x1 = map(mouseX, 0, width, 25, 75);
+
+// movement of small ellipse with mouse
+
 ellipse(mouseY, 25, 25, 25);
-var x2 = map(mouseX, 0, height, 0, 100);
+
+// ellipse for mouse
+ellipse(mouseX, mouseY, 35, 35);
+
 
 }
