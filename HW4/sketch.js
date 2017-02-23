@@ -12,6 +12,7 @@ background(0);
 
 
 // target
+// Concentric Circles
 ellipse(ellipseX, 200, 80, 80);
 ellipse(ellipseX, 200, 70, 70);
 ellipse(ellipseX, 200, 60, 60);
@@ -24,7 +25,6 @@ ellipse(ellipseX, 200, 30, 30);
 ellipseX = ellipseX + 1;
 
 // movement of small ellipse with mouse
-
 ellipse(mouseY, 25, 25, 25);
 
 // ellipse for mouse
