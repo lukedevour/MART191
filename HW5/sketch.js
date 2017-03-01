@@ -1,4 +1,35 @@
-//
+
+var spot = {
+  x: 100,
+  y: 100
+};
+
+var spot2 = {
+  x: 100,
+  y: 100
+};
+
+var x;
+var x = 100;
+var col = {
+  r:0,
+  g: 255,
+  b: 0
+};
+
+var y;
+var y = 100;
+var col = {
+  r:0,
+  g: 255,
+  b: 0
+};
+var col2 = {
+  r:255,
+  g: 0,
+  b: 0
+};//
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
