@@ -27,11 +27,12 @@ function draw() {
         background(255);
         textSize(30);
         textFont("Georgia");
-        text("OMFG TURN THE LIGHTS OFF!", 250, 27);
+        text("Party Mode", 250, 27);
     }
+    //Button
     ellipse(x, y, d, d);
 }
-
+//Turn off lights for party mode
 function mousePressed() {
     if (dist(mouseX, mouseY, x, y) < d / 2) {
         state = !state;
